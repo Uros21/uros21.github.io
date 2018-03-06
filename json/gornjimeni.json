@@ -1,0 +1,27 @@
+[
+    {
+        "link":"index.html",
+        "naziv":"Home",
+        "klasa":"active"
+    },
+
+    {
+        "link":"about.html",
+        "naziv":"About"
+    },
+
+    {
+        "link":"author.html",
+        "naziv":"Author"
+    },
+
+    {
+        "link":"gallery.html",
+        "naziv":"Gallery"
+    },
+
+    {
+        "link":"contact.html",
+        "naziv":"Contact"
+    }
+]

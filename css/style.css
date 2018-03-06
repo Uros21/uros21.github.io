@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.okvir {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.clear {
+    clear: both;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* DEFINING VARIABLES 
+:root{
+  --bg-darker:
+  --bg-dark:#303841;
+  --accent:#3A4750;
+  --primary:#D72323;
+  --secondary:#EEEEEE;
+  --heading-font:'Ubuntu', sans-serif;  
+}
+*/
+
+/* HEADER */
+
+header {
+    width: 100%;
+    height: 150px;
+    background: #EEEE;
+    
+}
+
+header #logo {
+    width: 10%;
+    height: 150px;
+    float: left;
+}
+
+#logoImg {
+    margin: 10px 0px 0px 40px;
+}
+
+nav {
+    width: 51%;
+    height: 150px;
+    float: left;
+    line-height: 150px;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    padding-right: 10px;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+nav ul li a {
+    color: #141414;
+}
+
+nav ul li:first-child {
+    padding-left: 20px;
+}
+
+nav ul li a:hover {
+    transition: .2s linear;
+    color: orangered;
+}
+
+.active {
+    color: indigo;
+}
+
+#login {
+    width: 390px;
+    height: 150px;
+    float: right;
+}
+
+#userLogo,
+#passwordLogo {
+    color: #303841;
+}
+
+#login input[type="text"],
+input[type="password"] {
+    padding: 10px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #303841;
+    margin-top: 40px;
+}
+
+/* #login input [type="text"] ,input[type="password"]::placeholder{
+    color: var(--secondary);
+} */
+
+#loginBtn {
+    background: #EEEEEE;
+    margin-left: 76px;
+    margin-top: 10px;
+    padding: 10px 80px;
+    border: 2px solid #303841;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#loginBtn:hover {
+    transition: .2s linear;
+    background: orangered;
+    color: #EEEEEE;
+    border: 2px solid #EEEEEE;
+}
+
+/* SECTION */
+
+section {
+    width: 100%;
+    height: 300px;
+    background: #000;
+}
+
+section:first-child {
+    background: #D72323;
+}
+
+/* FOOTER */
+
+footer {
+    width: 100%;
+    height: 75px;
+    background: #EEEEEE;
+    line-height: 75px;
+}
+
+footer ul li {
+    float: left;
+    padding-left: 10px;
+}
+
+footer ul li a {
+    color: #141414;
+}
+
+footer #social {
+    width: 15%;
+    float: left;
+    padding-left: 80px;
+}
+
+footer #social i {
+    font-size: 20px;
+}
+
+#copyright {
+    float: right;
+    padding-right: 30px;
+}
+
+#copyright a {
+    color: #141414;
+}
