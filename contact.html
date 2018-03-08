@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Forest</title>
+    <!--META TAGS-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <meta name="description" content="Forest website">
+    <meta name="keywords" content="Forest...">
+    <meta name="author" content="Uros Obradovic">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="rights" content="Copyright by Uros Obradović@ 2018">
+    <link rel="shortcut icon" href="favicon.ico" type="image/gif" sizes="16x16">
+    <!--CSS-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header>
+        <div class="okvir">
+            <div id="logo">
+                <a href="index.html">
+                    <img src="images/grb.png" id="logoImg" alt="logo" />
+                </a>
+            </div>
+            <nav>
+                <ul id="gornjiMeni">
+                </ul>   
+            </nav>
+            <div id="login">
+                <!-- <form id="login" action="#" method="POST"> -->
+                <i class="fa fa-user-o" id="userLogo" aria-hidden="true"></i>
+                <input type="text" name="username" id="username" placeholder="Enter your username..." />
+                <i class="fa fa-lock" id="passwordLogo" aria-hidden="true"></i>
+                <input type="password" name="password" id="password" placeholder="Enter your password..." />
+                <button id="loginBtn">Login</button>
+                <!--</form>  -->
+            </div>
+
+            <div class="clear"></div>
+        </div>
+    </header>
+    <!-- END OF HEADER -->
+<div id="contact-form">
+        <div class="okvir">
+            <div class="contact-form-holder">
+                <h1>Contact</h1>
+                <div class="nameDiv">
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Your name.."/>
+                    <span id="spanName"></span>     
+                </div>
+                <div class="lastNameDiv">
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Your last name.."/>
+                    <span id="spanLast"></span>  
+                </div> 
+                <div class="emailDiv">
+                        <label for="subject">E-Mail</label>
+                        <input type="text" id="email" name="lastname" placeholder="Your email name.."/>
+                        <span id="spanEmail"></span>      
+                    </div>        
+                <div class="subjectDiv">
+                    <label for="subject">Subject</label>
+                    <textarea id="subject" name="subject" placeholder="Write something.."></textarea> 
+                    <span id="spanSubject"></span>    
+                </div>      
+                    
+                <input id="send" type="submit" value="Send"/>       
+        </div> 
+        <!-- <div class="contact-info">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias itaque quia pariatur, placeat eos minima, excepturi adipisci aliquid rem odio nostrum doloremque quae vel culpa voluptatibus blanditiis suscipit facilis.
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta ad voluptate praesentium animi. Delectus quasi, minima corrupti magni placeat quidem cum nisi officiis molestias voluptatum, sunt molestiae distinctio repellat suscipit?
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste minus quos in reprehenderit illum fugit eos quo nihil, veritatis eveniet officia perferendis sunt nesciunt. Animi quidem beatae cumque sapiente veritatis?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti exercitationem minima ipsam dolores dolore maxime quis! Consequatur aspernatur nobis ratione, iste voluptas beatae facilis ipsam tempore assumenda pariatur, praesentium possimus.
+            </div> -->
+    </div> 
+  
+</div>
+
+
+
+
+    <!-- FOOTER -->
+    <footer>
+        <ul id="footer-menu">
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="about.html">About</a>
+            </li>
+            <li>
+                <a href="author.html">Author</a>
+            </li>
+            <li>
+                <a href="gallery.html">Gallery</a>
+            </li>
+            <li>
+                <a href="contact.html">Contact</a>
+            </li>
+            <li>
+                <a href="documentaion.pdf">Documentation</a>
+            </li>
+            <li>
+                <a href="sitemap.xml">Sitemap</a>
+            </li>
+        </ul>
+
+        <ul id="social">
+            <li>
+                <a href="https://www.facebook.com" target="_blank">
+                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com" target="_blank">
+                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.twitter.com" target="_blank">
+                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.google-plus.com" target="_blank">
+                    <i class="fa fa-google-plus" aria-hidden="true"></i>
+                </a>
+            </li>
+        </ul>
+
+        <p id="copyright"> &copy;
+            <a href="mailto:uros.obradovic.92.16@ict.edu.rs"> Uros Obradovic 2018</a>
+        </p>
+    </footer>
+    <!-- END OF FOOTER -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <script src="javascript/main.js"></script>
+    <script src="javascript/jquery.js"></script>
+</body>
+
+</html>
