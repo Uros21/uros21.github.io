@@ -1,182 +1,256 @@
 @import url('https://fonts.googleapis.com/css?family=Ubuntu');
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .okvir {
-    width: 1200px;
-    margin: 0 auto;
+  width: 1200px;
+  margin: 0 auto;
 }
 
 ul {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 a {
-    text-decoration: none;
-    color: inherit;
+  text-decoration: none;
+  color: inherit;
 }
 
 .clear {
-    clear: both;
+  clear: both;
 }
 
 body {
-    font-family: 'Ubuntu', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
 }
-
-/* DEFINING VARIABLES 
-:root{
-  --bg-darker:
-  --bg-dark:#303841;
-  --accent:#3A4750;
-  --primary:#D72323;
-  --secondary:#EEEEEE;
-  --heading-font:'Ubuntu', sans-serif;  
-}
-*/
 
 /* HEADER */
 
 header {
-    width: 100%;
-    height: 150px;
-    background: #EEEE;
-    
+  width: 100%;
+  height: 150px;
+  background: #EEEE;
 }
 
 header #logo {
-    width: 10%;
-    height: 150px;
-    float: left;
+  width: 10%;
+  height: 150px;
+  float: left;
 }
 
 #logoImg {
-    margin: 10px 0px 0px 40px;
+  margin: 10px 0px 0px 40px;
 }
 
 nav {
-    width: 51%;
-    height: 150px;
-    float: left;
-    line-height: 150px;
-    text-align: center;
+  width: 51%;
+  height: 150px;
+  float: left;
+  line-height: 150px;
+  text-align: center;
 }
 
 nav ul li {
-    display: inline-block;
-    padding-right: 10px;
-    font-size: 16px;
-    text-transform: uppercase;
-    letter-spacing: 5px;
+  display: inline-block;
+  padding-right: 10px;
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
 }
 
 nav ul li a {
-    color: #141414;
+  color: #141414;
 }
 
 nav ul li:first-child {
-    padding-left: 20px;
+  padding-left: 20px;
 }
 
 nav ul li a:hover {
-    transition: .2s linear;
-    color: orangered;
+  transition: .2s linear;
+  color: orangered;
 }
 
 .active {
-    color: indigo;
+  color: indigo;
 }
 
 #login {
-    width: 390px;
-    height: 150px;
-    float: right;
+  width: 390px;
+  height: 150px;
+  float: right;
 }
 
-#userLogo,
-#passwordLogo {
-    color: #303841;
+#userLogo, #passwordLogo {
+  color: #303841;
 }
 
 #login input[type="text"],
 input[type="password"] {
-    padding: 10px;
-    background: transparent;
-    border: none;
-    border-bottom: 1px solid #303841;
-    margin-top: 40px;
+  padding: 10px;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #303841;
+  margin-top: 40px;
 }
 
-/* #login input [type="text"] ,input[type="password"]::placeholder{
-    color: var(--secondary);
-} */
-
 #loginBtn {
-    background: #EEEEEE;
-    margin-left: 76px;
-    margin-top: 10px;
-    padding: 10px 80px;
-    border: 2px solid #303841;
-    letter-spacing: 5px;
-    text-transform: uppercase;
-    font-weight: bold;
+  background: #EEEEEE;
+  margin-left: 76px;
+  margin-top: 10px;
+  padding: 10px 80px;
+  border: 2px solid #303841;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
 #loginBtn:hover {
-    transition: .2s linear;
-    background: orangered;
-    color: #EEEEEE;
-    border: 2px solid #EEEEEE;
+  transition: .2s linear;
+  background: orangered;
+  color: #EEEEEE;
+  border: 2px solid #EEEEEE;
 }
 
 /* SECTION */
 
 section {
-    width: 100%;
-    height: 300px;
-    background: #000;
+  width: 100%;
+  height: 300px;
+  background: #000;
 }
 
 section:first-child {
-    background: #D72323;
+  background: #D72323;
+}
+
+/* CONTACT */
+
+#contact-form {
+ /*  width: 100%; */
+  min-height: 800px;
+  background-color: rgb(10, 52, 95);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contact-form-holder {
+  margin-left: 300px;
+}
+.contact-form-holder h1 {
+  text-align: center;
+  padding-right: 480px;
+  color: white;
+  padding-bottom: 20px;
+}
+
+input[type=text], select, textarea {
+  width: 48%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+textarea {
+  min-width: 440px;
+  margin-left: 25px;
+  max-width: 440px;
+  padding: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#email {
+  margin-left: 30px;
+}
+
+.contact-info {
+  width: 300px;
+  height: 400px;
+  background-color: indigo;
+  color: chartreuse;
+  float: right;
+
+}
+
+#spanName,#spanLast,#spanEmail,#spanSubject {
+  color:red;
+  padding-left: 20px;
+}
+
+input[type=submit] {
+  background-color: #eee;
+  color: black;
+  padding: 20px 40px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 30px;
+  transition: .2s linear;
+}
+input[type=submit]:hover {
+  color: white;
+}
+
+input[type=submit]:hover {
+  background-color: orangered;
+}
+ 
+label {
+  color: white;
+  padding-right: 20px;
 }
 
 /* FOOTER */
 
 footer {
-    width: 100%;
-    height: 75px;
-    background: #EEEEEE;
-    line-height: 75px;
+  width: 100%;
+  height: 75px;
+  background: #EEEEEE;
+  line-height: 75px;
+  display: flex;
+  justify-content: center;
 }
 
 footer ul li {
-    float: left;
-    padding-left: 10px;
+  float: left;
+  padding-left: 10px;
 }
 
 footer ul li a {
-    color: #141414;
+  color: #141414;
+  transition: .2s linear;
+}
+
+footer ul li a:hover {
+  color: orangered;
 }
 
 footer #social {
-    width: 15%;
-    float: left;
-    padding-left: 80px;
+  width: 15%;
+  float: left;
+  padding-left: 80px;
 }
 
 footer #social i {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 #copyright {
-    float: right;
-    padding-right: 30px;
+  float: right;
+  padding-right: 30px;
 }
 
 #copyright a {
-    color: #141414;
+  color: #141414;
 }
+
+
+
 
