@@ -47,3 +47,59 @@ function napravigornjimeni(data) {
     gornjimeni.innerHTML=sadrzaj;
 }
 
+    //slider
+
+$(function() {
+
+    //settings for slider
+    var width = 1200;
+    var animationSpeed = 1000;
+    var pause = 3000;
+    var currentSlide = 1;
+
+    //cache DOM elements
+    var $slider = $('#slider');
+    var $slideContainer = $('.slides', $slider);
+    var $slides = $('.slide', $slider);
+
+    var interval;
+
+    function startSlider() {
+        interval = setInterval(function() {
+            $slideContainer.animate({'margin-left': '-='+width}, animationSpeed, function() {
+                if (++currentSlide === $slides.length) {
+                    currentSlide = 1;
+                    $slideContainer.css('margin-left', 0);
+                }
+            });
+        }, pause);
+    }
+    function pauseSlider() {
+        clearInterval(interval);
+    }
+
+    $slideContainer
+    .on('mouseenter', pauseSlider)
+    .on('mouseleave', startSlider);
+
+startSlider();
+
+
+});
+
+
+//dropDownmeni
+
+$(function(){
+    $(".main li").hover(
+        function(){
+            //$('ul.sub', this).slideDown(500);
+            //$('>ul.sub', this).slideDown(500);
+            $('>ul.sub:not(:animated)', this).slideDown(500);
+        },
+        function(){
+            //$('ul.sub',this).slideUp(300);
+            $('>ul.sub',this).slideUp(300);
+        }
+    );
+});
