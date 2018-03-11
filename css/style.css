@@ -4,6 +4,9 @@
   padding: 0;
 }
 
+
+
+
 .okvir {
   width: 1200px;
   margin: 0 auto;
@@ -94,6 +97,8 @@ input[type="password"] {
   border: none;
   border-bottom: 1px solid #303841;
   margin-top: 40px;
+  letter-spacing: -3px;
+  
 }
 
 #loginBtn {
@@ -118,13 +123,20 @@ input[type="password"] {
 
 section {
   width: 100%;
-  height: 300px;
-  background: #000;
+  height: 400px;
+  background: #000000;;
 }
 
-section:first-child {
+ /*  section:first-child {
   background: #D72323;
+} */
+
+section .liga{
+  background: purple;
+  width:400px;
+  height: 400px;
 }
+
 
 /* CONTACT */
 
@@ -251,7 +263,48 @@ footer #social i {
   color: #141414;
 }
 
+#box1{
+  width: 400px;
+  height: 400px;
+  background: red;
+  float:left;
+}
+#box2{
+  width: 400px;
+  height: 400px;
+  background: blue;
+  float: right;
+}
+#box3{
+  width: 400px;
+  height: 400px;
+  background: darkblue;
+  float: right;
+}
+
+#box11{
+  margin:30px 30px;
+  background: black;
+}
 
 
+#slider {
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+}
 
+#slider .slides {
+  display: block;
+  width: 6000px;
+  height: 400px;
+  margin: 0;
+  padding: 0;
+}
 
+#slider .slide {
+  float: left;
+  list-style-type: none;
+  width: 1200px;
+  height: 400px;
+}
