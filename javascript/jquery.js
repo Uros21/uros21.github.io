@@ -1,5 +1,5 @@
 $(document).ready(function () {
-   
+  
 
     $.ajax({
         type: "GET",
@@ -91,3 +91,66 @@ $(function(){
         }
     );
 });
+
+
+$("#box3").click(function(){
+    $("#box3").animate({
+        
+        opacity: '0.5',
+        height: '250px',
+        width: '250px'
+    });
+   
+});
+
+$("#box3").dblclick(function(){
+    $("#box3").animate({
+        
+        opacity: '0.5',
+        height: '400px',
+        width: '400px'
+    });
+   
+});
+
+$("#box2").click(function(){
+    $("#box2").animate({
+        
+        opacity: '0.5',
+        height: '250px',
+        width: '250px'
+    });
+   
+});
+
+$("#box2").dblclick(function(){
+    $("#box2").animate({
+        
+        opacity: '0.5',
+        height: '400px',
+        width: '400px'
+    });
+   
+});
+
+$("#box1").click(function(){
+    $("#box1").animate({
+        
+        opacity: '0.5',
+        height: '250px',
+        width: '250px'
+    });
+   
+});
+
+$("#box1").dblclick(function(){
+    $("#box1").animate({
+        
+        opacity: '0.5',
+        height: '400px',
+        width: '400px'
+    });
+   
+});
+
+
