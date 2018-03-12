@@ -1,75 +1,81 @@
 [
     {
-        "ime":"proizvod1",
-        "slika":"../images/imeslike.jpg",
-        "alt":"alt1"      
+
+        "slika":"../images/bizon.jpg",
+        "alt":"bizon"
     },
 
     {
-        "ime":"proizvod1",
-        "slika":"../images/imeslike.jpg",
-        "alt":"alt1"        
+
+        "slika":"../images/dabar.jpg",
+        "alt":"dabar"
     },
 
     {
-        "ime":"proizvod1",
-        "slika":"../images/imeslike.jpg",
-        "alt":"alt1"        
+
+        "slika":"../images/eagle.jpg",
+        "alt":"orao"
     },
 
     {
-        "ime":"proizvod1",
-        "slika":"../images/imeslike.jpg",
-        "alt":"alt1"        
+
+        "slika":"../images/jelen.png",
+        "alt":"jelen"
     },
 
     {
-        "ime":"proizvod1",
-        "slika":"../images/imeslike.jpg",
-        "alt":"alt1"        
+
+        "slika":"../images/koala.jpg",
+        "alt":"koala"
     },
 
     {
-        "ime":"proizvod1",
-        "slika":"../images/imeslike.jpg",
-        "alt":"alt1"        
+
+        "slika":"../images/lasica.jpg",
+        "alt":"lasica"
     },
 
     {
-        "ime":"proizvod1",
-        "slika":"../images/imeslike.jpg",
-        "alt":"alt1"        
+
+        "slika":"../images/pas.jpg",
+        "alt":"pas"
     },
 
     {
-        "ime":"proizvod1",
-        "slika":"../images/imeslike.jpg",
-        "alt":"alt1"        
+
+        "slika":"../images/peta.jpg",
+        "alt":"peta"
     },
 
     {
-        "ime":"proizvod1",
-        "slika":"../images/imeslike.jpg",
-        "alt":"alt1"        
+
+        "slika":"../images/pingvin.jpg",
+        "alt":"pingvin"
     },
 
     {
-        "ime":"proizvod1",
-        "slika":"../images/imeslike.jpg",
-        "alt":"alt1"        
+
+        "slika":"../images/rakun.jpg",
+        "alt":"rakun"
     },
 
     {
-        "ime":"proizvod1",
-        "slika":"../images/imeslike.jpg",
-        "alt":"alt1"        
+
+        "slika":"../images/sis-mis.jpg",
+        "alt":"sis-mis"
     },
 
     {
-        "ime":"proizvod1",
-        "slika":"../images/imeslike.jpg",
-        "alt":"alt1"        
+
+        "slika":"../images/sova.png",
+        "alt":"sova"
+    },
+
+    {
+
+        "slika":"../images/veverica.jpg",
+        "alt":"veverica"
     }
-]
 
-    
+  
+]
