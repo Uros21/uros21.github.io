@@ -262,21 +262,21 @@ footer #social i {
 #box1 {
   width: 400px;
   height: 400px;
-  background: red;
+  background: url("../images/pas1.jpg");
   float: left;
 }
 
 #box2 {
   width: 400px;
   height: 400px;
-  background: blue;
+  background:url("../images/tigar1.jpg");;
   float: right;
 }
 
 #box3 {
   width: 400px;
   height: 400px;
-  background: darkblue;
+  background:url("../images/jaguar.jpg");
   float: right;
 }
 
@@ -334,11 +334,25 @@ footer #social i {
 #autor{
   width: 100%;
   height: 300px;
-  background: green;
+  
   
 }
 
 #tekst{
-  padding: 20px;
-  background: red;
+  width: 1000px;
+  height: 300px;
+  padding: 110px;
+  background: white;
+}
+
+#aboutslika{
+  float:left;
+}
+
+#abouttekst{
+  width: 900px;
+  height: 120px;
+  float: left;
+  background: black;
+  margin-left: 20px;
 }
