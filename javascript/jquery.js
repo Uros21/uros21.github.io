@@ -1,17 +1,5 @@
 $(document).ready(function () {
-    $.ajax({
-        type: "GET",
-        url: "../json/galerija.json",
-        dataType: "json",
-        success: function (data) {
-            napraviGaleriju(data)            
-        },
-
-        error: function (xhr,status,err) {
-            console.log(err);
-        }
-        
-    });
+   
 
     $.ajax({
         type: "GET",
